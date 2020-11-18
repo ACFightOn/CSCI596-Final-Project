@@ -1,5 +1,7 @@
 # Data Analysis of Shopping Behavior on Double Eleven
 
+Using taobao dataset from double eleven to analyse and predic user behavior
+
 
 ## Introduction
 
