@@ -1,0 +1,3 @@
+select count(*) from user_log; -- Use the aggregate function count() to calculate the number of rows in the table
+select count(distinct user_id) from user_log; -- Add distinct inside the function to find out the user_ How many pieces of data with non duplicate ID
+select count(*) from (select user_id,item_id,cat_id,merchant_id,brand_id,month,day,action from user_log group by user_id,item_id,cat_id,merchant_id,brand_id,month,day,action having count(*)=1)a;
