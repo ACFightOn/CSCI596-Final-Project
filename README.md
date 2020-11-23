@@ -1,13 +1,13 @@
 # Data Analysis of Shopping Behavior on Double Eleven
 
-Using taobao dataset from double eleven to analyse and predic user behavior
+Using taobao dataset from double eleven to analyse users' behavior and predic the returned customers.
 
 
 ## Introduction
 
-+ Get basic overview of this festival,such as the toal volume of the transaction, the proportion of the buyer from different age, gender, and trend compared to last year. 
++ Get basic overview of this festival, such as the toal volume of the transaction, the proportion of the buyer from different age, gender, and trend compared to last year. 
 
-+ Analyse the users' behaviors and tell the relationship between these behaviors and the final BUY hehavior. In other word, what kinds of behavior will bring to the buy behavior.
++ Analyse the users' behaviors and tell the relationship between these behaviors and the final BUY behavior. In other word, what kinds of behavior will bring to the buy behavior.
 
 + We predic whether the buyer will buy stuff from taobao or not.
 
@@ -18,9 +18,9 @@ Using taobao dataset from double eleven to analyse and predic user behavior
 ![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/Schema.jpg)
 
 1. Get the dataset, preprocess it and load it into HDFS
-2. Use Hive to further process the dataset
+2. Using Hive to further process the dataset
 3. Using Spark to predic returned customer.
-4. Visulization, plan to use JavaWeb.
+4. Using JavaWeb to achieve visulization.
 
 ## Environment
 + Linux
