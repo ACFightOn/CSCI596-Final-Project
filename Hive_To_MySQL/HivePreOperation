@@ -1,0 +1,8 @@
+# create table inner_user_log and inner_user_info
+create table dbtaobao.inner_user_log(user_id INT,item_id INT,cat_id INT,merchant_id INT,brand_id INT,month STRING,day STRING,action INT,age_range INT,gender INT,province STRING) COMMENT 'Welcome to XMU dblab! Now create inner table inner_user_log ' ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+
+# insert data from user_log to inner_user_log
+INSERT OVERWRITE TABLE dbtaobao.inner_user_log select * from dbtaobao.user_log;
+
+# check if success
+select * from inner_user_log limit 10;
