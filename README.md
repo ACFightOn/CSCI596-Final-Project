@@ -33,12 +33,12 @@ Using taobao dataset from double eleven to analyse users' behavior and predic th
 + Python3
 
 ## Final Visualization
-### male and female from different age
-![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/age.PNG)
 ### the catigories of buy behaviors
 ![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/buyier.PNG)
 ### male vs female
 ![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/vs.PNG)
+### male and female from different age
+![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/age.PNG)
 ### top goods
 ![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/goods.PNG)
 ### sales from different province
