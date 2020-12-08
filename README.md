@@ -31,3 +31,10 @@ Using taobao dataset from double eleven to analyse users' behavior and predic th
 + Spark
 + Java 1.8
 + Python3
+
+## Final Visualization
+![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/age.PNG)
+![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/buyier.PNG)
+![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/vs.PNG)
+![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/goods.PNG)
+![image](https://github.com/ACFightOn/CSCI596-Final-Project/blob/main/province.PNG)
